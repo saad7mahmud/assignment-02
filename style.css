@@ -1,0 +1,70 @@
+body {
+  font-family: "Work Sans", sans-serif;
+  margin: 0;
+}
+
+.pink {
+  color: #ff42a5;
+}
+.logo-text {
+  font-size: 45;
+  font-weight: bold;
+}
+.logo-div {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+
+  margin: 0;
+}
+.logo {
+  height: 40px;
+  width: 86px;
+}
+.nav-all-items {
+  display: flex;
+  justify-content: space-around;
+  background-color: aliceblue;
+  box-shadow: 0 5px 16px -6px #dbdbdb;
+  align-items: center;
+}
+.right-side-items ul {
+  list-style: none;
+  display: flex;
+  /* flex-direction: row; */
+}
+.right-side-items {
+  display: flex;
+  align-items: center;
+}
+.about-and-dev {
+  display: flex;
+  padding: 10px;
+  gap: 15px;
+  /* flex-direction: row; */
+}
+.follow-icons {
+  display: flex;
+  background-color: #0b022310;
+  border-radius: 5px;
+  padding: 10px;
+  gap: 15px;
+
+  /* flex-direction: row; */
+}
+.about-and-dev li a,
+.follow-icons li a {
+  text-decoration: none;
+}
+
+/* Media */
+@media screen and (width<=576px) {
+  .nav-all-items,
+  .right-side-items {
+    flex-direction: column;
+  }
+  .about-and-dev {
+    flex-direction: column;
+    margin: 0;
+  }
+}
