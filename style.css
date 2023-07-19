@@ -57,14 +57,12 @@ body {
 .nav-all-items {
   display: flex;
   justify-content: space-around;
-  /* background-color: aliceblue; */
   box-shadow: 0 5px 16px -6px #dbdbdb;
   align-items: center;
 }
 .right-side-items ul {
   list-style: none;
   display: flex;
-  /* flex-direction: row; */
 }
 .right-side-items {
   display: flex;
@@ -98,7 +96,6 @@ body {
   align-items: center;
   gap: 40px;
   margin-top: 40px;
-  /* padding: 300px; */
 }
 
 .kids-club-img {
